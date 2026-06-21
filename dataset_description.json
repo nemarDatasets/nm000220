@@ -1,42 +1,43 @@
 {
-    "Name": "Beetl2021-A",
-    "BIDSVersion": "1.7.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "[Unspecified1]",
-        "[Unspecified2]"
-    ],
-    "ReferencesAndLinks": [
-        "https://beetl.ai/data",
-        "10.48550/arXiv.2202.12950"
-    ],
-    "Keywords": [
-        "machine learning",
-        "transfer learning",
-        "domain adaptation",
-        "Brain-Computer-Interfaces",
-        "EEG",
-        "neuroscience",
-        "NeurIPS2021",
-        "motor imagery",
-        "cross-dataset",
-        "subject independence"
-    ],
-    "DatasetDOI": "doi:10.48550/arXiv.2202.12950",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.2.0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": null
-        }
-    ],
-    "PublicationYear": 2022
+  "Name": "BEETL Competition 2021 Motor Imagery Dataset A — transfer learning benchmark",
+  "BIDSVersion": "1.7.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "[Unspecified1]",
+    "[Unspecified2]"
+  ],
+  "ReferencesAndLinks": [
+    "https://beetl.ai/data",
+    "10.48550/arXiv.2202.12950"
+  ],
+  "Keywords": [
+    "machine learning",
+    "transfer learning",
+    "domain adaptation",
+    "Brain-Computer-Interfaces",
+    "EEG",
+    "neuroscience",
+    "NeurIPS2021",
+    "motor imagery",
+    "cross-dataset",
+    "subject independence"
+  ],
+  "DatasetDOI": "doi:10.48550/arXiv.2202.12950",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.2.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": null
+    }
+  ],
+  "PublicationYear": 2022,
+  "Version": "1.0.1"
 }
