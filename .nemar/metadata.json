@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "BEETL Competition 2021 Motor Imagery Dataset A — transfer learning benchmark",
-  "description": "The BEETL Competition 2021 Motor Imagery Dataset A is a transfer learning benchmark comprising EEG recordings from 3 healthy subjects performing four-class motor imagery tasks (rest, left hand, right hand, feet) in an online brain-computer interface racing game. Recorded at 500 Hz with 63 channels and preprocessed with bandpass (1-100 Hz) and notch (50 Hz) filtering, this dataset addresses the challenge of cross-subject and cross-dataset generalization in motor imagery decoding, serving as a benchmark for evaluating transfer learning and domain adaptation techniques in biosignal machine learning.",
-  "methods_description": "EEG data were collected at 500 Hz sampling rate using 63 channels in a standard 1005 montage during an online Cybathlon2020IC racing game. Subjects performed four motor imagery tasks (rest, left hand, right hand, feet) with 4-second trial duration. Data preprocessing included bandpass filtering (1-100 Hz) and 50 Hz notch filtering. Training data comprised 5 races per subject and testing data comprised 10 races per subject, with each race containing multiple 4-second trials. The competition evaluated transfer learning from multiple source datasets (Cho2017, BNCI2014, PhysionetMI) to target datasets with different EEG setups and electrode configurations.",
+  "description": "Beetl2021-A is a preprocessed motor imagery EEG dataset from the BEETL Competition Task 2 (NeurIPS 2021), comprising data from 3 healthy subjects collected during an online racing game (Cybathlon2020IC). The dataset contains 63-channel EEG recordings at 500 Hz with four-class motor imagery tasks (rest, left hand, right hand, feet) and serves as a benchmark for evaluating transfer learning and domain adaptation methods across heterogeneous EEG datasets and subjects. This dataset is part of a larger competition focused on advancing transfer learning for subject independence and cross-dataset generalization in brain-computer interfacing.",
+  "methods_description": "EEG data were acquired at 500 Hz from 63 channels using standard 1005 montage during an online BCI racing game (Cybathlon2020IC) with visual feedback. The experimental protocol comprised 5 training races and 10 testing races per subject, with each trial lasting 4 seconds. Motor imagery tasks included four classes: rest, left hand, right hand, and feet. Online preprocessing included 1-100 Hz bandpass filtering and 50 Hz notch filtering. Data underwent offline preprocessing with identical bandpass (1-100 Hz) and notch (50 Hz) filtering before release. The dataset was part of the BEETL Competition Task 2, which focused on transfer learning evaluation using multiple source datasets (Cho2017, BNCI2014, PhysionetMI) as external benchmarks to assess generalization to target datasets with different EEG setups and electrode configurations.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -12,10 +12,10 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "motor imagery"
     },
     {
-      "term": "motor imagery"
+      "term": "EEG"
     },
     {
       "term": "Brain-Computer Interfaces",
@@ -29,42 +29,19 @@
       "term": "domain adaptation"
     },
     {
-      "term": "cross-subject generalization"
+      "term": "cross-dataset generalization"
     },
     {
-      "term": "deep learning"
+      "term": "subject independence"
     },
     {
       "term": "machine learning"
     },
     {
       "term": "neuroscience"
-    },
-    {
-      "term": "NeurIPS2021"
-    },
-    {
-      "term": "cross-dataset"
-    },
-    {
-      "term": "subject independence"
-    },
-    {
-      "term": "Cybathlon"
-    },
-    {
-      "term": "online BCI"
-    },
-    {
-      "term": "racing game"
     }
   ],
   "related_identifiers": [
-    {
-      "identifier": "10.48550/arXiv.2202.12950",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
     {
       "identifier": "https://github.com/nemarDatasets/nm000220",
       "identifier_type": "URL",
@@ -74,6 +51,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000220",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.48550/arXiv.2202.12950",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -101,5 +83,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "b1093f7aedbeb066eb1556d52942c48e53cc86e4e0f25310d625382cc4b0dcbc"
+  "source_hash": "3e608c9bc1b865144743014da9fb30ad7e11d95b550c0900a7781e53e9899bec"
 }
