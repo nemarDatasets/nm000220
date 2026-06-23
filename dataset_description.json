@@ -24,7 +24,7 @@
     "cross-dataset",
     "subject independence"
   ],
-  "DatasetDOI": "doi:10.48550/arXiv.2202.12950",
+  "DatasetDOI": "10.82901/nemar.nm000220",
   "GeneratedBy": [
     {
       "CodeURL": "https://github.com/NeuroTechX/moabb",
@@ -36,6 +36,9 @@
   "SourceDatasets": [
     {
       "DOI": null
+    },
+    {
+      "DOI": "doi:10.48550/arXiv.2202.12950"
     }
   ],
   "PublicationYear": 2022,
