@@ -1,0 +1,605 @@
+{
+ "dataset": "nm000220",
+ "moabb_class": "Beetl2021_A",
+ "moabb_version_used": "1.5.0dev0",
+ "retrieved": "2026-08-13",
+ "retrieved_by": "moabb.datasets.Beetl2021_A.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-Beetl2021-A-data",
+ "license": "CC-BY-4.0",
+ "doi": null,
+ "naming": "upstream_filenames_restored",
+ "n_files": 118,
+ "total_bytes": 2102523400,
+ "files": [
+  {
+   "file": "finalMI.zip",
+   "bytes": 547945444,
+   "sha256": "cb1c31ba2ce0af31ef37f42f3c9194bb44a373bcd805c04b0ce0a3b7ed520a0e"
+  },
+  {
+   "file": "finalMI/S1/testing/race10_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "3a695ef8d81416b348073ab0fd6663503f6eb79f2a692c463e39309542006dee"
+  },
+  {
+   "file": "finalMI/S1/testing/race11_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "52eef31c446a3b760f81e1278356fc29cb1ab4db7ff4394c6a82df370eeac178"
+  },
+  {
+   "file": "finalMI/S1/testing/race12_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "78908696ea9bd8e90517502dd59175a2d4d2c63d9a47ebfd82f04c8845d949a1"
+  },
+  {
+   "file": "finalMI/S1/testing/race13_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "40afc1806866df7d7e1018654d19098db0ddeec0e50c5af4a87e3f412a403a8a"
+  },
+  {
+   "file": "finalMI/S1/testing/race14_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "6e0454e7b52a8842426497cc91f9feda422876f30cec1ad2dadb30410a9fe618"
+  },
+  {
+   "file": "finalMI/S1/testing/race15_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "6a0f54f14d5a10932546820d6cbbe36694051e8166eaab76127a882d9963ab0f"
+  },
+  {
+   "file": "finalMI/S1/testing/race6_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "fe7b1d254882b1e0201f2405b890d09f570b31132e883b173f19b78dea66abea"
+  },
+  {
+   "file": "finalMI/S1/testing/race7_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "76326073990107e569a7caf9669ff620e0e8820abceb5dbfc824aca5253af5e4"
+  },
+  {
+   "file": "finalMI/S1/testing/race8_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "a7a1fce301ba0e6385bfb6bfec00b15de34cd335550f5c73125b5f89c4dc9a20"
+  },
+  {
+   "file": "finalMI/S1/testing/race9_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "c46b3fd1c0ffe711ffda7d0a510a233038f07aea3610c500e27d5cce93030818"
+  },
+  {
+   "file": "finalMI/S1/training/race1_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "2f66e24bc4487a1cf995d9ed8036b66d7655e9b3ac9693ceebabff05072e701b"
+  },
+  {
+   "file": "finalMI/S1/training/race1_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "4cacda73a79179b04aacf18101508de1ed76a150cf6f56da6f9b64c58f5d67eb"
+  },
+  {
+   "file": "finalMI/S1/training/race2_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "f6737b8907123f42c05cc9004ca18da9220f7454c770116d04eca3dce74444cd"
+  },
+  {
+   "file": "finalMI/S1/training/race2_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "7a9821c18d048584e076c0fa731e7c54ac65100ae5a19558b2d3bdd5d5227734"
+  },
+  {
+   "file": "finalMI/S1/training/race3_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "e86ce064256524bd249e88333133938f8ca37efe5bab8eb87fdb3ab9f611baaf"
+  },
+  {
+   "file": "finalMI/S1/training/race3_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "7088dee51aef8f42f3405669d23a93d0b9e41f64dd80a69e912e8a42c590beee"
+  },
+  {
+   "file": "finalMI/S1/training/race4_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "6646ba195fcecce62c5497295c636d81248df108ee3016f65330719902d83c47"
+  },
+  {
+   "file": "finalMI/S1/training/race4_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "32ac66824674fa2495837893f170a0536537bdb6a59b7b79ffaf0a8667ecba31"
+  },
+  {
+   "file": "finalMI/S1/training/race5_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "843bbbe1edf2e5d64bfc498a5017ba6f8c85c5260f36a6d8ead1ab412e5ecc27"
+  },
+  {
+   "file": "finalMI/S1/training/race5_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "1e428ddc81a10cdd22a0c9d5c18a7149c5e8c62d39f1ce4107af364f4cbb1269"
+  },
+  {
+   "file": "finalMI/S2/testing/race10_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "1d045090c090921509d3e196bcb2da6111fa28cfc4a5eba2da19adf8759aea24"
+  },
+  {
+   "file": "finalMI/S2/testing/race11_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "41b8849416d6205e9f64de770c20640030d62ab2b353283b8c2c7ce0bff9ab11"
+  },
+  {
+   "file": "finalMI/S2/testing/race12_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "7a45460cd792f392afa0760716100b941adfd513ff92ad0996ff131dbdfaeb49"
+  },
+  {
+   "file": "finalMI/S2/testing/race13_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "bc2a8f22bbfb42917b5a25686c2beff3a3c01c15b9b41f45adb0631255c716a0"
+  },
+  {
+   "file": "finalMI/S2/testing/race14_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "e4f584fba36c6f424568b306eaa3fa47749fb79fa75419159557d87c9763ceef"
+  },
+  {
+   "file": "finalMI/S2/testing/race15_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "e5dce9651a1f465baeee1c79e355841f917fa61eba3022e9d4f5e2ee181a97c7"
+  },
+  {
+   "file": "finalMI/S2/testing/race6_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "2a0097b2829cb2ecec65ffda49eb7ace2b041ff3b2cceb10b18b95975e73007b"
+  },
+  {
+   "file": "finalMI/S2/testing/race7_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "6fc9044086433e3c3b46c052e3976d836fd0c68ecfa113db8d813fc7f2fda214"
+  },
+  {
+   "file": "finalMI/S2/testing/race8_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "7216a612d3b8409b16e9b88556fac7139686492e1bac33cd1e2289cf6c3841bb"
+  },
+  {
+   "file": "finalMI/S2/testing/race9_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "693609d5a4a4a39e9ba6dc2dcdccfed93d096e5dd7e2811c0f75771d372bc40b"
+  },
+  {
+   "file": "finalMI/S2/training/race1_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "c7ddbe7c7df9712452fa1f94a9d43b4d42fa05ea368ddf41d0fc5a396b6bb1c8"
+  },
+  {
+   "file": "finalMI/S2/training/race1_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "9b797f03b831cf30c7c77c399e00d5b85669ccccc4861155a8657efc4f595e97"
+  },
+  {
+   "file": "finalMI/S2/training/race2_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "b0847e2ee16ea377031d9351d7161e9b2fa7ffbd3a04bedb1be66319b5533b62"
+  },
+  {
+   "file": "finalMI/S2/training/race2_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "071bca9635d0bf0db2b51cf0b3479fc1100b990f708b40c7c1c095e96184be12"
+  },
+  {
+   "file": "finalMI/S2/training/race3_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "be6e3274950e1302db276ffa8a0fbf411bd9fd3624b46adeec99bf82773e41d2"
+  },
+  {
+   "file": "finalMI/S2/training/race3_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "bc05ac736b0a17599b14972111b02d9aecebd18d8d26b9f82ed8687de7e4842c"
+  },
+  {
+   "file": "finalMI/S2/training/race4_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "3c8c9ab43537600170839d426187fdc41f400fdf021f1c6109908e9d933c6e7f"
+  },
+  {
+   "file": "finalMI/S2/training/race4_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "3f9cce406a26092402592f2ffa93883e01dbe812bb4ded66c5b0958b56439521"
+  },
+  {
+   "file": "finalMI/S2/training/race5_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "443d622718fe940215441e51323a2d11a4da2f1f5a5dd3cea195858af817fbc6"
+  },
+  {
+   "file": "finalMI/S2/training/race5_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "86caadedfaae49462aff86506a6856505bd8df3a2c98ba0004af2168d3700317"
+  },
+  {
+   "file": "finalMI/S3/testing/race10_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "c20f6cb053e3f85f5f9176c21ba1ecdcf9616925012b52a632722decc799bd1a"
+  },
+  {
+   "file": "finalMI/S3/testing/race11_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "07adf0dfce4a5017756de0d0cd2d604c8abc566af51dd043e80f6dbf435ee88d"
+  },
+  {
+   "file": "finalMI/S3/testing/race12_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "1697f70413803cb109aff1edfed4ddc60f718872d64bfe327f2aec42fd2b181a"
+  },
+  {
+   "file": "finalMI/S3/testing/race13_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "96b2b2766da911ee1ece93044509d7a6925ad9f5d89b8c6e2e9cbd7f4f046278"
+  },
+  {
+   "file": "finalMI/S3/testing/race14_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "370eb19db87142a8b5fd70b25934078d7587e5b5c578d743ef46997927d362a3"
+  },
+  {
+   "file": "finalMI/S3/testing/race15_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "74962f1d8f40a80e73ed25e21d2c70b626fe2d05290f58a3ae03ac5212013011"
+  },
+  {
+   "file": "finalMI/S3/testing/race6_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "4a1d20704ee90e872b474a075a2b98326c6b4907bc7123dcbd73b2ad136a4a9b"
+  },
+  {
+   "file": "finalMI/S3/testing/race7_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "dc554ac672ae5a04f922ea81981602bdad5161483d9cbe4b7d6f9efaf6f4c477"
+  },
+  {
+   "file": "finalMI/S3/testing/race8_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "b0689a98c273dd080ffbaf312b6bb450c8085d27d5aff915317741936cf1007c"
+  },
+  {
+   "file": "finalMI/S3/testing/race9_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "742b012939ab88dc1706971804f1bb6b87971caf9effada3be4cf9065753006f"
+  },
+  {
+   "file": "finalMI/S3/training/race1_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "1bc8bd0e916632172f51476c75aefa3d850f5a662761ef25f2c3ae21a7bce7c8"
+  },
+  {
+   "file": "finalMI/S3/training/race1_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "91db0ea7bb7887a650686e02be465ec5e60108d2b88aec9693bbeab64342d921"
+  },
+  {
+   "file": "finalMI/S3/training/race2_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "0195b741fc00996e8a9198638b6efdf7b2087a1a524cded729d14e13aa5d9ef8"
+  },
+  {
+   "file": "finalMI/S3/training/race2_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "91db0ea7bb7887a650686e02be465ec5e60108d2b88aec9693bbeab64342d921"
+  },
+  {
+   "file": "finalMI/S3/training/race3_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "6050f6935a7b56772089bf4ef894758b6b51773490333115130cc20e74bfd459"
+  },
+  {
+   "file": "finalMI/S3/training/race3_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "91db0ea7bb7887a650686e02be465ec5e60108d2b88aec9693bbeab64342d921"
+  },
+  {
+   "file": "finalMI/S3/training/race4_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "d6cee1561980eecfc5ce54cedb7541b0226b88fc605ec9a353393ac4115f3488"
+  },
+  {
+   "file": "finalMI/S3/training/race4_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "708a4c6e6b3ba39a616caaa7af8991b2d21043395ece9d49554b95cb75adf3cb"
+  },
+  {
+   "file": "finalMI/S3/training/race5_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "57debca3c4f66e9b129901ea9af03c5116d86e31792c6b5f8a91976ca6d8e516"
+  },
+  {
+   "file": "finalMI/S3/training/race5_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "0b8f29d259cf672a860c79c9b4ceedc09a6c3b0cdf850d6104d6b1eea52b7397"
+  },
+  {
+   "file": "finalMI/S4/testing/testing_s4X.npy",
+   "bytes": 40960164,
+   "sha256": "0c8b3a68288201ccc560d4e5e73484ba1e85c7a7145d7e240d1788db3446a445"
+  },
+  {
+   "file": "finalMI/S4/training/training_s4X.npy",
+   "bytes": 24576164,
+   "sha256": "98fe16af231ecd07e7320842474c7565607d4dc0ee82acf095982a1db7e894cb"
+  },
+  {
+   "file": "finalMI/S4/training/training_s4y.npy",
+   "bytes": 1110,
+   "sha256": "d4df0bd8d54979e1cb2872258dfaf78ca43b2ea14934ce94cd392e1caaf06d44"
+  },
+  {
+   "file": "finalMI/S5/testing/testing_s5X.npy",
+   "bytes": 40960164,
+   "sha256": "93544518718706d8b6a0b5e5e5146e8a07d0a4ec680f5d76c8bd53388a8691f0"
+  },
+  {
+   "file": "finalMI/S5/training/training_s5X.npy",
+   "bytes": 24576164,
+   "sha256": "32d771455c6d5cf21cdd74d9f2242ceca46efe83f63e115f77f2b1cf5668c7e9"
+  },
+  {
+   "file": "finalMI/S5/training/training_s5y.npy",
+   "bytes": 1110,
+   "sha256": "d4df0bd8d54979e1cb2872258dfaf78ca43b2ea14934ce94cd392e1caaf06d44"
+  },
+  {
+   "file": "final_MI_label.txt",
+   "bytes": 3000,
+   "sha256": "d7dcc5a18c67a40a6374957cb7d08508f7bbb53923210016384fb550098a54a7"
+  },
+  {
+   "file": "leaderboardMI.zip",
+   "bytes": 470867866,
+   "sha256": "cea0e078544bb829e8dcbac27f22fe5e8e7e2549b1dada7f61d2efae8ffaaa32"
+  },
+  {
+   "file": "leaderboardMI/S1/testing/race10_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "7c30ed2ed4844f8bcdf64bce6d7ee780608128a2dbe2cbbfcc905fd293f97606"
+  },
+  {
+   "file": "leaderboardMI/S1/testing/race11_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "aa203f03559de9e2007395d6981e104a4db6a61f6c7ef897ebb386dc7918b4e8"
+  },
+  {
+   "file": "leaderboardMI/S1/testing/race12_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "e64b4e22340189d6d50ee1d591cfee0fb8ddf9dda20c710db9d56e2c1d140946"
+  },
+  {
+   "file": "leaderboardMI/S1/testing/race13_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "eaed1262d452579dcd5e9b5bbe552bb99e818b759e1b87ca5329e539977c1769"
+  },
+  {
+   "file": "leaderboardMI/S1/testing/race14_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "f913623bc9ac75a4472b9b809f44fe4be7bcb53db1479f36925b51661cd45e96"
+  },
+  {
+   "file": "leaderboardMI/S1/testing/race15_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "62c4d47b937fc6bf86f2b7cd29e40637a5df601a4247ca259846ef5cbb3623c0"
+  },
+  {
+   "file": "leaderboardMI/S1/testing/race6_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "f7021e1dba889d305c89529a3d9bbb527dfefce2284a3b40e99c4a27fe5a5d66"
+  },
+  {
+   "file": "leaderboardMI/S1/testing/race7_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "9bd21483d6c103f55a9e4315c0067ec24fe0b542cc42bc50e45f8822f40e22df"
+  },
+  {
+   "file": "leaderboardMI/S1/testing/race8_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "ad40ee521e3e4d5d6a5292c48aa03d928d3b8022974f5f3074894718d9a99fe2"
+  },
+  {
+   "file": "leaderboardMI/S1/testing/race9_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "7aa833ba0607cde422f86867ab72c00e0d66bf48b78ea46a70b8c94df63b9aeb"
+  },
+  {
+   "file": "leaderboardMI/S1/training/race1_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "e26e016a06b838d647852c5fc3bd845bfc9201cb8a207ed2ace0609923ce75a0"
+  },
+  {
+   "file": "leaderboardMI/S1/training/race1_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "4d8942b0d4b8f09bca9cfa91dc5b3d750841b210d48e81947b6fd17b58d57969"
+  },
+  {
+   "file": "leaderboardMI/S1/training/race2_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "857eaaf043d57d22eff4c58dc7f8cc1d8efc7616c4a2c19deca7aaa3b4217d3c"
+  },
+  {
+   "file": "leaderboardMI/S1/training/race2_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "a7f7152a4a29a7db30666cab97f55191b9d415eea56583a05d871d5f92e8dfd6"
+  },
+  {
+   "file": "leaderboardMI/S1/training/race3_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "988c3f4da670374e05007889b1a226125e407d405039bbe61adcadc8e0e55800"
+  },
+  {
+   "file": "leaderboardMI/S1/training/race3_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "8b46038c4ff701a1dc2e06652323168e344a78b74403398fbca614d8656c9129"
+  },
+  {
+   "file": "leaderboardMI/S1/training/race4_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "836060a723a2afcb07c63ee17b8e13597a8f92d2e6945c42da1cb2948a912053"
+  },
+  {
+   "file": "leaderboardMI/S1/training/race4_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "98ae646b5ec320fb6058c478253069cdf17eeed7082dd71daabfad9877b9ee68"
+  },
+  {
+   "file": "leaderboardMI/S1/training/race5_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "82aa7b4bfffaded1b8ec7ef5448409ecf8c4189162ff20345aee8b862a70b859"
+  },
+  {
+   "file": "leaderboardMI/S1/training/race5_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "29324887401e4355c3a4508dedf25d9f8c596eb8799d6b7099f687d01dc5dbe7"
+  },
+  {
+   "file": "leaderboardMI/S2/testing/race10_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "81805f7a995e8b104e7b35048197788334b9a8aaa3a681b543b0da54137ce129"
+  },
+  {
+   "file": "leaderboardMI/S2/testing/race11_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "6da326a63856037e3da53b4c0fe1b79c498ffef176ba1423b3ab0542ae61385a"
+  },
+  {
+   "file": "leaderboardMI/S2/testing/race12_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "f789445b67eeda57c4523508c91ba0e1188e5cd57fdd180aaa5af42853817774"
+  },
+  {
+   "file": "leaderboardMI/S2/testing/race13_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "36b9b37e13da7f3d9d3ee5d9f77a53a1ef8cb1913ec3226bd15f3cfc763d4937"
+  },
+  {
+   "file": "leaderboardMI/S2/testing/race14_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "59453dda0b43a6e67c4ea7676fcbebbc55ac6d9f35f49e99e7a80b9cf5b13655"
+  },
+  {
+   "file": "leaderboardMI/S2/testing/race15_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "2e1d8f3fbd0791de57d62b2fdfa556376958d1bbf12c34f59cbe7b7a3b7196d4"
+  },
+  {
+   "file": "leaderboardMI/S2/testing/race6_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "38d73e88eeced10766c72132af110cbb0c8431740157e7ad31ea1d44ce9a7f66"
+  },
+  {
+   "file": "leaderboardMI/S2/testing/race7_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "6355cb56afb47ce5a9810e5e24a7079acbecd87bd4e8fe17982589ddb22b57c4"
+  },
+  {
+   "file": "leaderboardMI/S2/testing/race8_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "349c09259a0591070a6eecaed241e9ab246b39c348a4235bc4646a9047f197cd"
+  },
+  {
+   "file": "leaderboardMI/S2/testing/race9_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "9ca7d52b803c9d2001385e77407f58f6062189eae414e9e4d5926949edfe1a1f"
+  },
+  {
+   "file": "leaderboardMI/S2/training/race1_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "9df521582e24f4bed9f29839d9ed0c5938d0d6c34fe0d770f8d158d80532cc44"
+  },
+  {
+   "file": "leaderboardMI/S2/training/race1_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "56ddf5d6e0d58d76c228094593061d87054fafc2fba29129dba15d9b8cb1b981"
+  },
+  {
+   "file": "leaderboardMI/S2/training/race2_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "47336abe4e49829f4d34df12c4dc8a0f94e16d9302c62ce71ef920430bd3c55d"
+  },
+  {
+   "file": "leaderboardMI/S2/training/race2_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "d125ed0d0fd4130e8f84f42dc7c6dbf57a4bbf56ac14a077e8f7660345d1f9a2"
+  },
+  {
+   "file": "leaderboardMI/S2/training/race3_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "ec7390fcd711efc43e3ec9cfdb746e78609d43f1421e348f27208fd58def9a23"
+  },
+  {
+   "file": "leaderboardMI/S2/training/race3_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "b6056ade19e21b7ec515475632915b3435bbbda3a838afed37b6c5bb109d1722"
+  },
+  {
+   "file": "leaderboardMI/S2/training/race4_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "0770e989c28c259ffe7cc6db03a19bbdcaecb7f313a2062995a0fdae0f5e3005"
+  },
+  {
+   "file": "leaderboardMI/S2/training/race4_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "97227a6b4f4756b9727f03a71b773e12297bef0200137aa793d50557596faba4"
+  },
+  {
+   "file": "leaderboardMI/S2/training/race5_padsData.npy",
+   "bytes": 10080161,
+   "sha256": "75064244b1ad8b8e4b8b73c157ea09c7d2432d91857c0eb19eced48124b7e5e6"
+  },
+  {
+   "file": "leaderboardMI/S2/training/race5_padsLabel.npy",
+   "bytes": 313,
+   "sha256": "b5df4f29c904f8de62c00c48ae2261074e837cc245941f9532a1e1f78b63c9be"
+  },
+  {
+   "file": "leaderboardMI/S3/testing/testing_s3X.npy",
+   "bytes": 40960164,
+   "sha256": "12e08c2c6e36b2d84cb572d6c65c4367d7d1b2378823b9c80bad83b9a422b80f"
+  },
+  {
+   "file": "leaderboardMI/S3/training/training_s3X.npy",
+   "bytes": 24576164,
+   "sha256": "696be3c8f26db5e8798c3d1066d83a6fc6489891fcf8a41bfc81bad9a76f72ac"
+  },
+  {
+   "file": "leaderboardMI/S3/training/training_s3y.npy",
+   "bytes": 1110,
+   "sha256": "d4df0bd8d54979e1cb2872258dfaf78ca43b2ea14934ce94cd392e1caaf06d44"
+  },
+  {
+   "file": "leaderboardMI/S4/testing/testing_s4X.npy",
+   "bytes": 40960164,
+   "sha256": "6fd4e42918569c4a8c6c213a2ece15c179db1b0fb373596a7ec194624194906a"
+  },
+  {
+   "file": "leaderboardMI/S4/training/training_s4X.npy",
+   "bytes": 24576164,
+   "sha256": "ab4020020eb24356e0ead56975d1e150a98c83b79d147e6eab1524e398ad534d"
+  },
+  {
+   "file": "leaderboardMI/S4/training/training_s4y.npy",
+   "bytes": 1110,
+   "sha256": "d4df0bd8d54979e1cb2872258dfaf78ca43b2ea14934ce94cd392e1caaf06d44"
+  },
+  {
+   "file": "leaderboardMI/S5/testing/testing_s5X.npy",
+   "bytes": 40960164,
+   "sha256": "c1c966cb0c950f828220d976593fd73b1d954a7808dcc3dc419d7633cea9ac13"
+  },
+  {
+   "file": "leaderboardMI/S5/training/training_s5X.npy",
+   "bytes": 24576164,
+   "sha256": "2c5b04e37cdab4da4e453dd84d2326276384d08164261c1180fffda303fb5e7a"
+  },
+  {
+   "file": "leaderboardMI/S5/training/training_s5y.npy",
+   "bytes": 1110,
+   "sha256": "d4df0bd8d54979e1cb2872258dfaf78ca43b2ea14934ce94cd392e1caaf06d44"
+  }
+ ]
+}
