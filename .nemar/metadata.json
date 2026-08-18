@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "BEETL Competition 2021 Motor Imagery Dataset A — transfer learning benchmark",
-  "description": "Beetl2021-A is a preprocessed motor imagery EEG dataset comprising 63-channel recordings from 3 healthy subjects collected during an online BCI racing game with four-class motor imagery tasks (rest, left hand, right hand, feet). Sampled at 500 Hz, the dataset contains 1,490 trials and serves as a benchmark for evaluating transfer learning and domain adaptation methods across heterogeneous EEG datasets and subjects, with particular focus on subject independence and cross-dataset generalization in brain-computer interfacing. This dataset is part of the BEETL Competition Task 2 (NeurIPS 2021) and uses transfer learning from multiple source datasets (Cho2017, BNCI2014, PhysionetMI).",
-  "methods_description": "EEG data were acquired at 500 Hz from 63 channels using standard 1005 montage during an online BCI racing game (Cybathlon2020IC) with visual feedback. The experimental protocol comprised 5 training races and 10 testing races per subject, with each trial lasting 4 seconds. Motor imagery tasks included four classes: rest, left hand, right hand, and feet. Online preprocessing included 1-100 Hz bandpass filtering and 50 Hz notch filtering. Offline preprocessing applied identical bandpass (1-100 Hz) and notch (50 Hz) filtering before dataset release. The dataset was part of the BEETL Competition Task 2, which focused on transfer learning from multiple source datasets (Cho2017, BNCI2014, PhysionetMI) to target datasets with different EEG setups and electrode configurations.",
+  "description": "Beetl2021-A is a preprocessed motor imagery EEG dataset comprising 63-channel recordings from 3 healthy subjects acquired during an online BCI racing game with four-class motor imagery tasks (rest, left hand, right hand, feet). Sampled at 500 Hz with 1490 total trials, this dataset serves as a benchmark for evaluating transfer learning and domain adaptation methods in brain-computer interfaces, with emphasis on subject independence and cross-dataset generalization.",
+  "methods_description": "EEG data were acquired at 500 Hz from 63 channels using standard 1005 montage during an online BCI racing game (Cybathlon2020IC) with visual feedback. The experimental protocol comprised 5 training races and 10 testing races per subject, with each trial lasting 4 seconds. Online preprocessing included 1-100 Hz bandpass filtering and 50 Hz notch filtering. Offline preprocessing applied identical bandpass (1-100 Hz) and notch (50 Hz) filtering before dataset release. This dataset was part of the BEETL Competition Task 2 (NeurIPS 2021) and was evaluated using transfer learning from reference datasets (Cho2017, BNCI2014, PhysionetMI) to assess cross-dataset generalization and subject independence in brain-computer interfaces.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -12,14 +12,10 @@
   },
   "keywords": [
     {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "motor imagery"
     },
     {
-      "term": "motor imagery",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D019545"
+      "term": "EEG"
     },
     {
       "term": "Brain-Computer Interfaces",
@@ -43,6 +39,12 @@
     },
     {
       "term": "neuroscience"
+    },
+    {
+      "term": "cross-dataset"
+    },
+    {
+      "term": "Cybathlon"
     }
   ],
   "related_identifiers": [
@@ -97,5 +99,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "f70ab0c0b55b1e229f8683e5c9a0aff1c4eba4a5f87cf4376d88530ab7181571"
+  "source_hash": "7159cbd3f432f2ee550885d2540d373886f76737f741586f9d2f338d42b25a60"
 }
