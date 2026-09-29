@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "BEETL Competition 2021 Motor Imagery Dataset A — transfer learning benchmark",
-  "description": "This dataset provides preprocessed motor imagery EEG recordings from the BEETL Competition 2021 Task 2 (NeurIPS 2021), collected from healthy subjects performing a four-class motor imagery task (rest, left hand, right hand, feet) during an online BCI racing game. The data serve as a benchmark for evaluating transfer learning and domain adaptation methods for subject independence and cross-dataset generalization in brain-computer interfaces. It was converted to BIDS format using the MOABB pipeline and re-hosted on NEMAR.",
-  "methods_description": "EEG data were acquired at 500 Hz from 63 channels using a standard 10-05 montage during an online BCI racing game (Cybathlon2020IC) with visual feedback. Each subject completed 5 training races and 10 testing races, with trials lasting 4 seconds each across four motor imagery classes. Online preprocessing applied 1-100 Hz bandpass and 50 Hz notch filtering, and identical offline filtering was applied before release.",
+  "description": "Beetl2021-A is a preprocessed four-class motor imagery EEG dataset (rest, left hand, right hand, feet) from Task 2 of the BEETL Competition at NeurIPS 2021. It contains 63-channel recordings at 500 Hz from healthy participants playing an online BCI racing game (Cybathlon2020IC), with 1490 trials of 4 s each in a single session. It serves as a benchmark for transfer learning and domain adaptation across heterogeneous EEG datasets and subjects, and is re-hosted in BIDS format via the MOABB pipeline.",
+  "methods_description": "EEG was acquired at 500 Hz from 63 channels (1005 montage) during an online BCI racing game with visual feedback. Each subject completed 5 training races and 10 testing races, with 4 s trials. Online and offline preprocessing included 1-100 Hz bandpass and 50 Hz notch filtering.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -29,16 +29,21 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "machine learning"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "subject independence"
     },
     {
+      "term": "machine learning"
+    },
+    {
       "term": "cross-dataset"
     },
     {
-      "term": "neuroscience"
+      "term": "NeurIPS2021"
     }
   ],
   "related_identifiers": [
@@ -80,7 +85,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.3 GB (94 files)"
+    "2.17 GB (94 files)"
   ],
   "formats": [
     ".edf",
